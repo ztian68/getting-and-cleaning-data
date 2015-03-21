@@ -1,10 +1,10 @@
-testdata <- read.table("./test/X_test.txt")
-testdataL <- read.table("./test/Y_test.txt")
-testdataS <- read.table("./test/subject_test.txt")
+testdata <- read.table("test/X_test.txt")
+testdataL <- read.table("test/Y_test.txt")
+testdataS <- read.table("test/subject_test.txt")
 
-traindata <- read.table("./train/X_train.txt")
-traindataL <- read.table("./train/Y_train.txt")
-traindataS <- read.table("./train/subject_train.txt")
+traindata <- read.table("train/X_train.txt")
+traindataL <- read.table("train/Y_train.txt")
+traindataS <- read.table("train/subject_train.txt")
 
 alldataS<-rbind(testdataS, traindataS)
 alldataL<-rbind(testdataL, traindataL)
